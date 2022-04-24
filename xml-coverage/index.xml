@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Sun Apr 24 14:52:24 UTC 2022" phpunit="9.5.20" coverage="9.2.15">
+    <runtime name="PHP" version="8.1.5" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="3.1.4"/>
+  </build>
+  <project source="/home/eduardo/Dropbox/dev/php-rest-api/App">
+    <tests>
+      <test name="AuthorModelTest::ModelCreationTest" size="unknown" result="0" status="PASSED"/>
+      <test name="AuthTest::UserLogin with data set &quot;correctLogin&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="AuthTest::UserLogin with data set &quot;incorrectLogin&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="AuthorsControllerTest::processRequest with data set &quot;correctOneAuthorRequest&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="AuthorsControllerTest::processRequest with data set &quot;correctAllAuthorsRequest&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="AuthorsControllerTest::processRequest with data set &quot;nonExistentAuthorRequest&quot;" size="unknown" result="0" status="PASSED"/>
+      <test name="AuthorsControllerTest::processRequest with data set &quot;malformedAuthorRequestId&quot;" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="481" comments="6" code="475" executable="213" executed="67" percent="31.46"/>
+        <methods count="30" tested="10" percent="33.33"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="6" tested="2" percent="33.33"/>
+        <traits count="1" tested="0" percent="0.00"/>
+      </totals>
+      <directory name="Auth">
+        <totals>
+          <lines total="14" comments="0" code="14" executable="3" executed="3" percent="100.00"/>
+          <methods count="1" tested="1" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="1" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Auth.php" href="Auth/Auth.php.xml">
+          <totals>
+            <lines total="14" comments="0" code="14" executable="3" executed="3" percent="100.00"/>
+            <methods count="1" tested="1" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Controllers">
+        <totals>
+          <lines total="140" comments="0" code="140" executable="56" executed="39" percent="69.64"/>
+          <methods count="9" tested="5" percent="55.56"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="2" tested="1" percent="50.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="AuthorsController.php" href="Controllers/AuthorsController.php.xml">
+          <totals>
+            <lines total="94" comments="0" code="94" executable="44" executed="27" percent="61.36"/>
+            <methods count="7" tested="3" percent="42.86"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="ControllersInterface.php" href="Controllers/ControllersInterface.php.xml">
+          <totals>
+            <lines total="7" comments="0" code="7" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="UsersController.php" href="Controllers/UsersController.php.xml">
+          <totals>
+            <lines total="39" comments="0" code="39" executable="12" executed="12" percent="100.00"/>
+            <methods count="2" tested="2" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Core">
+        <totals>
+          <lines total="114" comments="6" code="108" executable="49" executed="0" percent="0.00"/>
+          <methods count="6" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Gateway.php" href="Core/Gateway.php.xml">
+          <totals>
+            <lines total="114" comments="6" code="108" executable="49" executed="0" percent="0.00"/>
+            <methods count="6" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="DB">
+        <totals>
+          <lines total="30" comments="0" code="30" executable="10" executed="8" percent="80.00"/>
+          <methods count="2" tested="1" percent="50.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="DatabaseConnector.php" href="DB/DatabaseConnector.php.xml">
+          <totals>
+            <lines total="30" comments="0" code="30" executable="10" executed="8" percent="80.00"/>
+            <methods count="2" tested="1" percent="50.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Models">
+        <totals>
+          <lines total="95" comments="0" code="95" executable="44" executed="1" percent="2.27"/>
+          <methods count="5" tested="1" percent="20.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Author.php" href="Models/Author.php.xml">
+          <totals>
+            <lines total="95" comments="0" code="95" executable="44" executed="1" percent="2.27"/>
+            <methods count="5" tested="1" percent="20.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Traits">
+        <totals>
+          <lines total="88" comments="0" code="88" executable="51" executed="16" percent="31.37"/>
+          <methods count="7" tested="2" percent="28.57"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="0" tested="0" percent="0"/>
+          <traits count="1" tested="0" percent="0.00"/>
+        </totals>
+        <file name="EntitiesTrait.php" href="Traits/EntitiesTrait.php.xml">
+          <totals>
+            <lines total="88" comments="0" code="88" executable="51" executed="16" percent="31.37"/>
+            <methods count="7" tested="2" percent="28.57"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="1" tested="0" percent="0.00"/>
+          </totals>
+        </file>
+      </directory>
+    </directory>
+  </project>
+</phpunit>

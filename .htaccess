@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /php-rest-api/public/
+RewriteRule ^api/(.*) index.php [R,L]

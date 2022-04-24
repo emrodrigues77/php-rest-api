@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1650811942">
+  <project timestamp="1650811942">
+    <file name="/home/eduardo/Dropbox/dev/php-rest-api/App/Auth/Auth.php">
+      <class name="App\Auth\Auth" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="1" coveredconditionals="1" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+      </class>
+      <line num="9" type="method" name="AuthenticateUser" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="10" type="stmt" count="2"/>
+      <line num="11" type="stmt" count="2"/>
+      <line num="12" type="stmt" count="2"/>
+      <metrics loc="14" ncloc="14" classes="1" methods="1" coveredmethods="1" conditionals="1" coveredconditionals="1" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
+    </file>
+    <file name="/home/eduardo/Dropbox/dev/php-rest-api/App/Controllers/AuthorsController.php">
+      <class name="App\Controllers\AuthorsController" namespace="global">
+        <metrics complexity="18" methods="7" coveredmethods="3" conditionals="31" coveredconditionals="17" statements="44" coveredstatements="27" elements="82" coveredelements="47"/>
+      </class>
+      <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="21" type="stmt" count="4"/>
+      <line num="22" type="stmt" count="4"/>
+      <line num="23" type="stmt" count="4"/>
+      <line num="24" type="stmt" count="4"/>
+      <line num="27" type="method" name="processRequest" visibility="public" complexity="10" crap="98.47" count="4"/>
+      <line num="28" type="stmt" count="4"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="30" type="stmt" count="3"/>
+      <line num="31" type="stmt" count="3"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="43" type="stmt" count="4"/>
+      <line num="46" type="method" name="processAllAuthorsRequest" visibility="private" complexity="1" crap="1" count="1"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="48" type="stmt" count="1"/>
+      <line num="49" type="stmt" count="1"/>
+      <line num="50" type="stmt" count="1"/>
+      <line num="51" type="stmt" count="1"/>
+      <line num="54" type="method" name="processOneAuthorRequest" visibility="private" complexity="3" crap="3" count="3"/>
+      <line num="55" type="stmt" count="3"/>
+      <line num="57" type="stmt" count="3"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="59" type="stmt" count="1"/>
+      <line num="60" type="stmt" count="1"/>
+      <line num="63" type="stmt" count="2"/>
+      <line num="64" type="stmt" count="2"/>
+      <line num="66" type="stmt" count="2"/>
+      <line num="67" type="stmt" count="1"/>
+      <line num="68" type="stmt" count="1"/>
+      <line num="70" type="stmt" count="1"/>
+      <line num="71" type="stmt" count="1"/>
+      <line num="74" type="stmt" count="2"/>
+      <line num="77" type="method" name="processNewAuthorRequest" visibility="private" complexity="1" crap="2" count="0"/>
+      <line num="78" type="stmt" count="0"/>
+      <line num="79" type="stmt" count="0"/>
+      <line num="80" type="stmt" count="0"/>
+      <line num="83" type="method" name="processUpdateAuthorRequest" visibility="private" complexity="1" crap="2" count="0"/>
+      <line num="84" type="stmt" count="0"/>
+      <line num="85" type="stmt" count="0"/>
+      <line num="86" type="stmt" count="0"/>
+      <line num="89" type="method" name="processDeleteAuthorRequest" visibility="private" complexity="1" crap="2" count="0"/>
+      <line num="90" type="stmt" count="0"/>
+      <line num="91" type="stmt" count="0"/>
+      <line num="92" type="stmt" count="0"/>
+      <metrics loc="94" ncloc="94" classes="1" methods="7" coveredmethods="3" conditionals="31" coveredconditionals="17" statements="44" coveredstatements="27" elements="82" coveredelements="47"/>
+    </file>
+    <file name="/home/eduardo/Dropbox/dev/php-rest-api/App/Controllers/ControllersInterface.php">
+      <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/eduardo/Dropbox/dev/php-rest-api/App/Controllers/UsersController.php">
+      <class name="App\Controllers\UsersController" namespace="global">
+        <metrics complexity="3" methods="2" coveredmethods="2" conditionals="5" coveredconditionals="5" statements="12" coveredstatements="12" elements="19" coveredelements="19"/>
+      </class>
+      <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="15" type="stmt" count="2"/>
+      <line num="16" type="stmt" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="18" type="stmt" count="2"/>
+      <line num="21" type="method" name="logUser" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="22" type="stmt" count="2"/>
+      <line num="30" type="stmt" count="2"/>
+      <line num="31" type="stmt" count="2"/>
+      <line num="32" type="stmt" count="2"/>
+      <line num="33" type="stmt" count="2"/>
+      <line num="34" type="stmt" count="2"/>
+      <line num="35" type="stmt" count="2"/>
+      <line num="37" type="stmt" count="2"/>
+      <metrics loc="39" ncloc="39" classes="1" methods="2" coveredmethods="2" conditionals="5" coveredconditionals="5" statements="12" coveredstatements="12" elements="19" coveredelements="19"/>
+    </file>
+    <file name="/home/eduardo/Dropbox/dev/php-rest-api/App/Core/Gateway.php">
+      <class name="App\Core\Gateway" namespace="global">
+        <metrics complexity="16" methods="6" coveredmethods="0" conditionals="33" coveredconditionals="0" statements="49" coveredstatements="0" elements="88" coveredelements="0"/>
+      </class>
+      <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="30" type="method" name="processRequest" visibility="public" complexity="8" crap="72" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="41" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="46" type="stmt" count="0"/>
+      <line num="47" type="stmt" count="0"/>
+      <line num="50" type="stmt" count="0"/>
+      <line num="51" type="stmt" count="0"/>
+      <line num="52" type="stmt" count="0"/>
+      <line num="53" type="stmt" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <line num="58" type="stmt" count="0"/>
+      <line num="59" type="stmt" count="0"/>
+      <line num="60" type="stmt" count="0"/>
+      <line num="61" type="stmt" count="0"/>
+      <line num="62" type="stmt" count="0"/>
+      <line num="66" type="stmt" count="0"/>
+      <line num="67" type="stmt" count="0"/>
+      <line num="68" type="stmt" count="0"/>
+      <line num="69" type="stmt" count="0"/>
+      <line num="73" type="method" name="prepareData" visibility="private" complexity="2" crap="6" count="0"/>
+      <line num="74" type="stmt" count="0"/>
+      <line num="75" type="stmt" count="0"/>
+      <line num="77" type="stmt" count="0"/>
+      <line num="80" type="stmt" count="0"/>
+      <line num="83" type="method" name="returnResponse" visibility="private" complexity="2" crap="6" count="0"/>
+      <line num="84" type="stmt" count="0"/>
+      <line num="86" type="stmt" count="0"/>
+      <line num="87" type="stmt" count="0"/>
+      <line num="91" type="method" name="isValidEntityMethodRequest" visibility="private" complexity="2" crap="6" count="0"/>
+      <line num="92" type="stmt" count="0"/>
+      <line num="99" type="stmt" count="0"/>
+      <line num="100" type="stmt" count="0"/>
+      <line num="101" type="stmt" count="0"/>
+      <line num="102" type="stmt" count="0"/>
+      <line num="103" type="stmt" count="0"/>
+      <line num="104" type="stmt" count="0"/>
+      <line num="105" type="stmt" count="0"/>
+      <line num="108" type="method" name="callEntityController" visibility="private" complexity="1" crap="2" count="0"/>
+      <line num="109" type="stmt" count="0"/>
+      <line num="110" type="stmt" count="0"/>
+      <line num="111" type="stmt" count="0"/>
+      <line num="112" type="stmt" count="0"/>
+      <metrics loc="114" ncloc="108" classes="1" methods="6" coveredmethods="0" conditionals="33" coveredconditionals="0" statements="49" coveredstatements="0" elements="88" coveredelements="0"/>
+    </file>
+    <file name="/home/eduardo/Dropbox/dev/php-rest-api/App/DB/DatabaseConnector.php">
+      <class name="App\DB\DatabaseConnector" namespace="global">
+        <metrics complexity="3" methods="2" coveredmethods="1" conditionals="5" coveredconditionals="3" statements="10" coveredstatements="8" elements="17" coveredelements="12"/>
+      </class>
+      <line num="9" type="method" name="__construct" visibility="public" complexity="2" crap="2.50" count="6"/>
+      <line num="10" type="stmt" count="6"/>
+      <line num="11" type="stmt" count="6"/>
+      <line num="12" type="stmt" count="6"/>
+      <line num="13" type="stmt" count="6"/>
+      <line num="14" type="stmt" count="6"/>
+      <line num="17" type="stmt" count="6"/>
+      <line num="18" type="stmt" count="6"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="27" type="method" name="getConnection" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="28" type="stmt" count="5"/>
+      <metrics loc="30" ncloc="30" classes="1" methods="2" coveredmethods="1" conditionals="5" coveredconditionals="3" statements="10" coveredstatements="8" elements="17" coveredelements="12"/>
+    </file>
+    <file name="/home/eduardo/Dropbox/dev/php-rest-api/App/Models/Author.php">
+      <class name="App\Models\Author" namespace="global">
+        <metrics complexity="15" methods="5" coveredmethods="1" conditionals="25" coveredconditionals="1" statements="44" coveredstatements="1" elements="74" coveredelements="3"/>
+      </class>
+      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="16" type="stmt" count="4"/>
+      <line num="19" type="method" name="store" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="34" type="method" name="update" visibility="public" complexity="4" crap="20" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="43" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <line num="50" type="stmt" count="0"/>
+      <line num="51" type="stmt" count="0"/>
+      <line num="53" type="stmt" count="0"/>
+      <line num="56" type="method" name="delete" visibility="public" complexity="5" crap="30" count="0"/>
+      <line num="58" type="stmt" count="0"/>
+      <line num="59" type="stmt" count="0"/>
+      <line num="60" type="stmt" count="0"/>
+      <line num="61" type="stmt" count="0"/>
+      <line num="64" type="stmt" count="0"/>
+      <line num="65" type="stmt" count="0"/>
+      <line num="66" type="stmt" count="0"/>
+      <line num="67" type="stmt" count="0"/>
+      <line num="70" type="stmt" count="0"/>
+      <line num="71" type="stmt" count="0"/>
+      <line num="72" type="stmt" count="0"/>
+      <line num="73" type="stmt" count="0"/>
+      <line num="76" type="stmt" count="0"/>
+      <line num="77" type="stmt" count="0"/>
+      <line num="78" type="stmt" count="0"/>
+      <line num="79" type="stmt" count="0"/>
+      <line num="81" type="stmt" count="0"/>
+      <line num="82" type="stmt" count="0"/>
+      <line num="83" type="stmt" count="0"/>
+      <line num="87" type="method" name="validate" visibility="private" complexity="3" crap="12" count="0"/>
+      <line num="89" type="stmt" count="0"/>
+      <line num="90" type="stmt" count="0"/>
+      <line num="93" type="stmt" count="0"/>
+      <metrics loc="95" ncloc="95" classes="1" methods="5" coveredmethods="1" conditionals="25" coveredconditionals="1" statements="44" coveredstatements="1" elements="74" coveredelements="3"/>
+    </file>
+    <file name="/home/eduardo/Dropbox/dev/php-rest-api/App/Traits/EntitiesTrait.php">
+      <class name="App\Traits\EntitiesTrait" namespace="global">
+        <metrics complexity="11" methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="51" coveredstatements="16" elements="58" coveredelements="18"/>
+      </class>
+      <line num="11" type="method" name="canEntityBeDeleted" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="21" type="method" name="findAll" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="22" type="stmt" count="1"/>
+      <line num="23" type="stmt" count="1"/>
+      <line num="24" type="stmt" count="1"/>
+      <line num="25" type="stmt" count="1"/>
+      <line num="26" type="stmt" count="1"/>
+      <line num="27" type="stmt" count="1"/>
+      <line num="28" type="stmt" count="1"/>
+      <line num="29" type="stmt" count="1"/>
+      <line num="32" type="method" name="find" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="33" type="stmt" count="2"/>
+      <line num="34" type="stmt" count="2"/>
+      <line num="35" type="stmt" count="2"/>
+      <line num="37" type="stmt" count="2"/>
+      <line num="38" type="stmt" count="2"/>
+      <line num="39" type="stmt" count="2"/>
+      <line num="40" type="stmt" count="2"/>
+      <line num="41" type="stmt" count="2"/>
+      <line num="44" type="method" name="entityExists" visibility="private" complexity="2" crap="6" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="46" type="stmt" count="0"/>
+      <line num="47" type="stmt" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <line num="50" type="stmt" count="0"/>
+      <line num="53" type="method" name="destroy" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="54" type="stmt" count="0"/>
+      <line num="55" type="stmt" count="0"/>
+      <line num="56" type="stmt" count="0"/>
+      <line num="58" type="stmt" count="0"/>
+      <line num="59" type="stmt" count="0"/>
+      <line num="60" type="stmt" count="0"/>
+      <line num="63" type="method" name="storeEntity" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="65" type="stmt" count="0"/>
+      <line num="66" type="stmt" count="0"/>
+      <line num="67" type="stmt" count="0"/>
+      <line num="68" type="stmt" count="0"/>
+      <line num="69" type="stmt" count="0"/>
+      <line num="70" type="stmt" count="0"/>
+      <line num="71" type="stmt" count="0"/>
+      <line num="72" type="stmt" count="0"/>
+      <line num="76" type="method" name="updateEntity" visibility="public" complexity="2" crap="6" count="0"/>
+      <line num="78" type="stmt" count="0"/>
+      <line num="79" type="stmt" count="0"/>
+      <line num="80" type="stmt" count="0"/>
+      <line num="81" type="stmt" count="0"/>
+      <line num="82" type="stmt" count="0"/>
+      <line num="83" type="stmt" count="0"/>
+      <line num="84" type="stmt" count="0"/>
+      <line num="85" type="stmt" count="0"/>
+      <metrics loc="88" ncloc="88" classes="1" methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="51" coveredstatements="16" elements="58" coveredelements="18"/>
+    </file>
+    <metrics files="8" loc="481" ncloc="475" classes="7" methods="30" coveredmethods="10" conditionals="100" coveredconditionals="27" statements="213" coveredstatements="67" elements="343" coveredelements="104"/>
+  </project>
+</coverage>
