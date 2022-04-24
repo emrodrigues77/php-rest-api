@@ -1,2 +1,4 @@
 vendor/
 .env
+html-coverage/
+xml-coverage/
